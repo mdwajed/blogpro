@@ -25,3 +25,49 @@ body {
     text-wrap: balance;
   }
 } */
+.light {
+  background-color: white;
+  color: #111;
+}
+
+.dark {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.ql-container {
+  font-size: 28px !important;
+}
+
+.quill > .ql-container > .ql-editor.ql-blank::before {
+  color: #b3b3b1;
+}
+
+.category.style {
+  background-color: #57c4ff31;
+}
+
+.category.fashion {
+  background-color: #da85c731;
+}
+
+.category.food {
+  background-color: #7fb88133;
+}
+
+.category.travel {
+  background-color: #ff795736;
+}
+
+.category.culture {
+  background-color: #ffb04f45;
+}
+
+.category.coding {
+  background-color: #5e4fff31;
+}
+
+.button:disabled {
+  background-color: rgba(220, 20, 60, 0.473);
+  cursor: not-allowed;
+}
